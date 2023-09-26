@@ -34,7 +34,7 @@ FIGMA Wireframe: https://www.figma.com/proto/eVttsqBkJMQdbBva8yknVx/Crypto-Price
 1. Make sure to have iOS simulator installed via Xcode
 2. Clone the repo
    ```bash
-   $ git clone https://github.com/quyencodes/moonbridge.git
+   $ git clone https://github.com/quyencodes/mogulmoneyts.git
    ```
 3. Install NPM packages
    ```bash
