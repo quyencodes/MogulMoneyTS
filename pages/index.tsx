@@ -1,4 +1,10 @@
+// npm imports
 import Head from 'next/head'
+
+// local imports
+import Board from '@components/Board'
+
+// type imports
 
 export default function Home() {
   return (
@@ -10,8 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <p className="font-titleFont">Inter</p>
-        <p className="font-bodyFont">Montserrat</p>
+        <Board />
       </main>
     </>
   )
