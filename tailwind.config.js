@@ -28,13 +28,16 @@ module.exports = {
         xl: '1280px',
       },
       fontFamily: {
-        titleFont: ['Inter', 'sans-serif'],
+        main: ['Antonio', 'sans-serif'],
         bodyFont: ['Montserrat', 'sans-serif'],
       },
       boxShadow: {
         navbarShadow: '0 10px 30px -10px rgba(2, 12, 27, 0.7)',
       },
       colors: {
+        gradientLeft: '#300055',
+        gradientRight: '#4E0088',
+        goldenDark: '#DA9100',
         bodyColor: '#0D1826',
         bgColor: '#1C2541',
         textMain: '#DF8F82',
