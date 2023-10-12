@@ -11,7 +11,7 @@ export default function Board({}: Props) {
   return (
     <section>
       <Header />
-      <div className="m-12 flex flex-row justify-center gap-48">
+      <div className="m-12 flex flex-row justify-center gap-24">
         {board.map((column, index) => (
           <Column key={index} board={board} title={column.category.label} />
         ))}
@@ -23,7 +23,7 @@ export default function Board({}: Props) {
 const Header = () => {
   return (
     <div className="flex justify-center pt-8">
-      <h2 className="text-goldenDark font-main text-5xl">
+      <h2 className="font-main text-5xl text-goldenDark">
         {columns['title'].toUpperCase()}
       </h2>
     </div>

@@ -10,13 +10,13 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    maxWidth: {
-      container: '1440px',
-      contentContainer: '1140px',
-      containerSmall: '1024px',
-      containerXS: '768px',
-    },
     extend: {
+      maxWidth: {
+        container: '1440px',
+        contentContainer: '1140px',
+        containerSmall: '1024px',
+        containerXS: '768px',
+      },
       screens: {
         xs: '320px',
         sm: '375px',
@@ -38,6 +38,7 @@ module.exports = {
         gradientLeft: '#300055',
         gradientRight: '#4E0088',
         goldenDark: '#DA9100',
+        violet: '#7700FF',
         bodyColor: '#0D1826',
         bgColor: '#1C2541',
         textMain: '#DF8F82',
