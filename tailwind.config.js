@@ -38,6 +38,8 @@ module.exports = {
         gradientLeft: '#300055',
         gradientRight: '#4E0088',
         goldenDark: '#DA9100',
+        modalGradientLeft: '#FFD98E',
+        modalGradientRight: '#FFCB64',
         violet: '#7700FF',
         bodyColor: '#0D1826',
         bgColor: '#1C2541',
